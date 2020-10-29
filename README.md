@@ -3,7 +3,7 @@ A lightweight implementation of pytorch's autograd.  For education purposes.  In
 
 It includes enough functions to create and train a fully connected neural network, from nothing but numpy.  It uses the principle of automatic differentiation which underlies all widely used deep learning frameworks today. 
 
-See geohot/tinygrad to see how you would expand on this further.
+Builds upon [karpathy/micrograd](https://github.com/karpathy/micrograd). View [geohot/tinygrad](https://github.com/geohot/tinygrad) to see how you would expand on this further and then of course [pytorch](https://github.com/pytorch/pytorch).
 
 ### Installation
   ```pip install autograd```
