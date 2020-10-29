@@ -16,7 +16,9 @@ class Tensor():
         self.grad_fn = lambda: None
 
     def __repr__(self):
-        return f"Tensor({self.data}), grad={self.grad})"
+        return f"Tensor({self.data}), 
+                grad={self.grad}, 
+                grad_fn={self.grad_fn.__name__})"
 
     def backward(self):
         """ Traverses the graph applying the chain rule """
