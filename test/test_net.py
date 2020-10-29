@@ -1,4 +1,3 @@
-import unittest
 import numpy as np
 from tqdm import trange
 from autograd.tensor import Tensor

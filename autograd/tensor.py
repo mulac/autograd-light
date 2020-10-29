@@ -1,5 +1,5 @@
+# inspired by https://github.com/karpathy/micrograd/blob/master/micrograd/engine.py
 import numpy as np
-
 
 def ensure_array(arrayable):
     if isinstance(arrayable, np.ndarray):

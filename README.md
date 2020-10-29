@@ -1,6 +1,10 @@
 # autograd_mini
 A lightweight implementation of pytorch's autograd.  For education purposes.  Inspired by Karpathy and Hotz.
 
+It includes enough functions to create and train a fully connected neural network, from nothing but numpy.  It uses the principle of automatic differentiation which underlies all widely used deep learning frameworks today. 
+
+See geohot/tinygrad to see how you would expand on this further.
+
 ### Installation
   ```pip install autograd```
   
