@@ -29,3 +29,4 @@ optim = SGD(net.parameters(), lr=1e-7)
 loss_fn = NLLLoss
 BS = 128
 ```
+See [test_net.py](https://github.com/Mulac/autograd_mini/blob/main/test/test_net.py) for full training loop.  Achieves ~94% accuracy on MNIST.
