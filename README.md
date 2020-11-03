@@ -6,7 +6,7 @@ It includes enough functions to create and train a fully connected neural networ
 Builds upon [karpathy/micrograd](https://github.com/karpathy/micrograd). View [geohot/tinygrad](https://github.com/geohot/tinygrad) to see how you would expand on this further and then of course [pytorch](https://github.com/pytorch/pytorch).
 
 ### Installation
-  ```pip install autograd```
+  ```pip install autograd``` tests require python 3.8 (walrus)
   
 ### Example 
 ```python
@@ -29,3 +29,4 @@ optim = SGD(net.parameters(), lr=1e-7)
 loss_fn = NLLLoss
 BS = 128
 ```
+See [test_net.py](https://github.com/Mulac/autograd_mini/blob/main/test/test_net.py) for full training loop.  Achieves ~94% accuracy on MNIST.
